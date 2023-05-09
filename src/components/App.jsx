@@ -1,6 +1,6 @@
 // import "./App.css";
 import { Route, Routes } from "react-router-dom";
-import { lazy, useEffect } from 'react';
+import { lazyt } from 'react';
 import { Layout } from "./Layout/Layout";
 
 
