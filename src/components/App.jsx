@@ -1,16 +1,25 @@
+// import "./App.css";
+import { Route, Routes } from "react-router-dom";
+import { lazy, useEffect } from 'react';
+import { Layout } from "./Layout/Layout";
+
+
+const HomePage = lazy(() => import('../pages/HomePage'));
+const TweetsPage = lazy(() => import('../pages/TweetsPage'));
+// const LoginPage = lazy(() => import('../pages/LoginPage'));
+
+
 export const App = () => {
+ 
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
-  );
+    <div>
+    <Routes>
+       <Route path="/" element={<Layout/>}>
+        <Route index element={<HomePage/>}/>
+        <Route path="/Tweets" element={<TweetsPage/>}/>
+       {/* <Route path="/Tweets" element={<TweetsPage/>}/> */}
+</Route>
+            </Routes>
+            </div>
+  )
 };

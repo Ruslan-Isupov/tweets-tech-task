@@ -1,0 +1,23 @@
+.itemList {
+    margin:20px 0;
+    display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 10px;
+
+}
+
+.tweetsItem{
+width: 380px;
+    height: 460px;
+}
+.mainTweetsHeading {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  color: #704aa3;
+  margin: 0 auto;
+  margin-top: 29px;
+}

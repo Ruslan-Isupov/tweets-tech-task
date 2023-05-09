@@ -1,0 +1,115 @@
+.tweetBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: relative;
+  text-align: center;
+  width: 380px;
+  height: 460px;
+  background-image: linear-gradient(
+    114.99deg,
+    #471ca9 -0.99%,
+    #5736a3 54.28%,
+    #4b2a99 78.99%
+  );
+  border-radius: 20px;
+  box-shadow: -2.5776965618133545px 6.873857021331787px 20.621572494506836px 0px
+    rgba(0, 0, 0, 0.23);
+}
+.mediumLine {
+  width: 380px;
+  height: 8px;
+  background: #ebd8ff;
+  position: absolute;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+}
+.tweetButton {
+  display: block;
+  margin: 0 auto;
+  height: 50px;
+  width: 196px;
+  border-radius: 10.310786247253418px;
+  padding: 14px 28px 14px 28px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #373737;
+  background-color: #ebd8ff;
+  box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.25);
+}
+.tweetButtonActive {
+  display: block;
+    margin: 0 auto;
+    height: 50px;
+    width: 196px;
+    border-radius: 10.310786247253418px;
+    padding: 14px 28px 14px 28px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #373737;
+    background-color: #5CD3A8;
+    box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.25);
+}
+.tweetsInfo {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ebd8ff;
+  margin-bottom: 16px;
+}
+.followInfo {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ebd8ff;
+  margin-bottom: 26px;
+}
+.backImage {
+  position: absolute;
+  top: 28px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width:308px;
+   height:168px
+}
+.logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width:76px; 
+  height:22px;
+}
+.avatar {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width:80px;
+  height:80px;
+}
+.descBox {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 36px;
+  margin: 0 auto;
+}

@@ -1,0 +1,69 @@
+.mainSection {
+  position: relative;
+  width:540px;
+  height: 450px;
+  background-color:#471ca9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-items: center;
+ margin: 0 auto;
+ margin-top: 30px;
+  box-shadow: 0 3px 60px rgba(57, 73, 76, 0.35);
+  padding: 0 15px;
+  border-radius: 20px ;
+
+
+}
+.mainSectHeading {
+font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  color: #704aa3;
+  margin: 0 auto;
+  margin-top: 29px;
+}
+.mainHeading{
+    font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 35px;
+        color: #000000;
+        margin: 0 auto;
+        margin-top: 29px;
+}
+.mainParagraph{
+font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  margin-bottom: 35px;
+
+}
+
+.sectionHeading{
+font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  color: #dec9ae;
+  margin: 0 auto;
+  margin-top: 29px;
+}
+
+.designUpBox{
+  position: absolute;
+    top: 28px;
+    left: 10px;
+    right: 0;
+  width:150px;
+  height:100px;
+}
+.designLowBox{
+  position: absolute;
+    bottom: 28px;
+    right: 10px;
+    width: 150px;
+    height: 100px;
+}
