@@ -21,3 +21,15 @@ width: 380px;
   margin: 0 auto;
   margin-top: 29px;
 }
+.buttonBack{
+  padding: 10px 15px;
+  margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    background-color: #471ca9;
+    border-radius: 10.310786247253418px;
+    box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.25);
+    background-color: #f8e14c;
+      border: 2px solid #fae13f;
+
+}

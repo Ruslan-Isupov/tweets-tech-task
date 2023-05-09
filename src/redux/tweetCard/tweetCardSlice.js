@@ -1,11 +1,11 @@
-import { createSlice } from "@reduxjs/toolkit";
+import { createSlice } from '@reduxjs/toolkit';
 
 const tweetCardInitialState = {
   numberPage: 1,
   totalAmount: 18,
 };
 const tweetCardSlice = createSlice({
-  name: "tweetsCard",
+  name: 'tweetsCard',
   initialState: tweetCardInitialState,
   reducers: {
     addPage(state) {
